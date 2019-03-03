@@ -1,0 +1,78 @@
+[INFO ] 2019-03-03 22:47:07 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - Starting Dept_8001_StartSpringCloudApplication on DESKTOP-2P4FE58 with PID 41616 (D:\WorkSpaceGit\microcloud\microcloud-provider-dept-8001\target\classes started by ami in D:\WorkSpaceGit\microcloud)
+[INFO ] 2019-03-03 22:47:07 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4dbf51c: startup date [Sun Mar 03 22:47:07 CST 2019]; root of context hierarchy
+[INFO ] 2019-03-03 22:47:07 [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[INFO ] 2019-03-03 22:47:07 [restartedMain] org.eclipse.jetty.util.log - Logging initialized @4533ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.c.e.j.JettyEmbeddedServletContainerFactory - Server initialized with port: 8001
+[INFO ] 2019-03-03 22:47:07 [restartedMain] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+[INFO ] 2019-03-03 22:47:07 [restartedMain] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[INFO ] 2019-03-03 22:47:07 [restartedMain] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[INFO ] 2019-03-03 22:47:07 [restartedMain] org.eclipse.jetty.server.session - Scavenging every 660000ms
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.e.j.s.h.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3364 ms
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.e.j.server.handler.ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@9a76f79{/,[file:///C:/Users/ami/AppData/Local/Temp/jetty-docbase.1549823727031937418.8001/],AVAILABLE}
+[INFO ] 2019-03-03 22:47:07 [restartedMain] org.eclipse.jetty.server.Server - Started @5797ms
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4dbf51c: startup date [Sun Mar 03 22:47:07 CST 2019]; root of context hierarchy
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/add/],methods=[GET]}" onto private java.lang.Object com.niu.microcloud.rest.DeptRest.add(com.niu.vo.Dept)
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/get/{id}],methods=[GET]}" onto public java.lang.Object com.niu.microcloud.rest.DeptRest.get(long)
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/list/],methods=[GET]}" onto private java.lang.Object com.niu.microcloud.rest.DeptRest.list()
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.e.j.s.h.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.e.jetty.server.AbstractConnector - Started ServerConnector@1fff7e05{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+[INFO ] 2019-03-03 22:47:07 [restartedMain] o.s.b.c.e.j.JettyEmbeddedServletContainer - Jetty started on port(s) 8001 (http/1.1)
+[INFO ] 2019-03-03 22:47:07 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - Started Dept_8001_StartSpringCloudApplication in 5.987 seconds (JVM running for 7.263)
+[INFO ] 2019-03-03 22:47:07 [qtp1570118301-22] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-03-03 22:51:03 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - Starting Dept_8001_StartSpringCloudApplication on DESKTOP-2P4FE58 with PID 42972 (D:\WorkSpaceGit\microcloud\microcloud-provider-dept-8001\target\classes started by ami in D:\WorkSpaceGit\microcloud)
+[INFO ] 2019-03-03 22:51:03 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20b45e45: startup date [Sun Mar 03 22:51:03 CST 2019]; root of context hierarchy
+[INFO ] 2019-03-03 22:51:03 [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[INFO ] 2019-03-03 22:51:03 [restartedMain] org.eclipse.jetty.util.log - Logging initialized @4199ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.c.e.j.JettyEmbeddedServletContainerFactory - Server initialized with port: 8001
+[INFO ] 2019-03-03 22:51:03 [restartedMain] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+[INFO ] 2019-03-03 22:51:03 [restartedMain] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[INFO ] 2019-03-03 22:51:03 [restartedMain] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[INFO ] 2019-03-03 22:51:03 [restartedMain] org.eclipse.jetty.server.session - Scavenging every 660000ms
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.e.j.s.h.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3190 ms
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.e.j.server.handler.ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@7d9b8925{/,[file:///C:/Users/ami/AppData/Local/Temp/jetty-docbase.8859577517513240130.8001/],AVAILABLE}
+[INFO ] 2019-03-03 22:51:03 [restartedMain] org.eclipse.jetty.server.Server - Started @5402ms
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20b45e45: startup date [Sun Mar 03 22:51:03 CST 2019]; root of context hierarchy
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[GET]}" onto private java.lang.Object com.niu.microcloud.rest.DeptRest.add(com.niu.vo.Dept)
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/get/{id}],methods=[GET]}" onto public java.lang.Object com.niu.microcloud.rest.DeptRest.get(long)
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/list],methods=[GET]}" onto private java.lang.Object com.niu.microcloud.rest.DeptRest.list()
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.e.j.s.h.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.e.jetty.server.AbstractConnector - Started ServerConnector@20233a62{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+[INFO ] 2019-03-03 22:51:03 [restartedMain] o.s.b.c.e.j.JettyEmbeddedServletContainer - Jetty started on port(s) 8001 (http/1.1)
+[INFO ] 2019-03-03 22:51:03 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - Started Dept_8001_StartSpringCloudApplication in 5.767 seconds (JVM running for 6.857)
+[INFO ] 2019-03-03 22:51:03 [qtp1849349454-20] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

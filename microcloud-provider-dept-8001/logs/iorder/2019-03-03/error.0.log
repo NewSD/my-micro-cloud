@@ -219,3 +219,4 @@ Caused by: org.apache.ibatis.builder.BuilderException: The setting cacheEnable i
 [ERROR] 2019-03-03 22:27:04 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 [ERROR] 2019-03-03 22:28:11 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 [ERROR] 2019-03-03 22:31:50 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+[ERROR] 2019-03-03 22:33:40 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
