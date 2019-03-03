@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microcloud-api" />
+        <module name="microcloud-consumer-80" />
         <module name="microcloud-provider-dept-8001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microcloud" target="1.8" />
       <module name="microcloud-api" target="1.8" />
+      <module name="microcloud-consumer-80" target="1.8" />
       <module name="microcloud-provider-dept-8001" target="1.8" />
     </bytecodeTargetLevel>
   </component>

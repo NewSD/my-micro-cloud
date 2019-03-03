@@ -104,7 +104,7 @@ Caused by: org.apache.ibatis.builder.BuilderException: The setting cacheEnable i
 	at org.apache.ibatis.builder.xml.XMLConfigBuilder.settingsAsProperties(XMLConfigBuilder.java:133)
 	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:106)
 	... 84 common frames omitted
-[ERROR] 2019-03-03 22:15:01 [main] o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@657c8ad9] to prepare test instance [com.niu.microcloud.service.IDeptServiceTest@7aad3f7d]
+[ERROR] 2019-03-03 22:15:01 [main] o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@657c8ad9] to prepare test instance [IDeptServiceTest@7aad3f7d]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
@@ -220,3 +220,4 @@ Caused by: org.apache.ibatis.builder.BuilderException: The setting cacheEnable i
 [ERROR] 2019-03-03 22:28:11 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 [ERROR] 2019-03-03 22:31:50 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
 [ERROR] 2019-03-03 22:33:40 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+[ERROR] 2019-03-03 23:20:11 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set

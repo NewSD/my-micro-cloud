@@ -19,7 +19,7 @@ public class DeptRest {
         return this.deptService.get(id);
     }
 
-    @RequestMapping(value = "/dept/add", method = RequestMethod.GET)
+    @RequestMapping(value = "/dept/add", method = RequestMethod.POST)
     private Object add(@RequestBody Dept dept) {
         return this.deptService.add(dept);
     }

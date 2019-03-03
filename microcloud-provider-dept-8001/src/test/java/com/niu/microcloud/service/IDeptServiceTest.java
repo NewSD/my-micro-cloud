@@ -13,8 +13,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import javax.annotation.Resource;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by ami on 2019/3/3.
  */
