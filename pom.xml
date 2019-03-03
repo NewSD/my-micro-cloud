@@ -7,6 +7,10 @@
     <artifactId>microcloud</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1</version>
+    <modules>
+        <module>microcloud-api</module>
+        <module>microcloud-provider-dept-8001</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>1.8</jdk.version>
