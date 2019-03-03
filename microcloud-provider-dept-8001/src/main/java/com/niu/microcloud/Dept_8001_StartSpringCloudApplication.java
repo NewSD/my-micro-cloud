@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * Created by ami on 2019/3/3.
  */
 @SpringBootApplication
-//@EnableTransactionManagement
+@EnableTransactionManagement
 public class Dept_8001_StartSpringCloudApplication {
 
     public static void main(String[] args) {

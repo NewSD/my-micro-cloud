@@ -4,13 +4,13 @@
 <mapper namespace="com.niu.microcloud.dao.IDeptDao">
 
     <select id="findAll" resultType="Dept">
-        SELECT deptno,dname FROM dept;
+        SELECT deptno,dname,loc FROM dept;
     </select>
     <select id="findById" resultType="Dept" parameterType="Long">
-        SELECT deptno,dname FROM dept WHERE deptno = #{id}
+        SELECT deptno,dname,loc FROM dept WHERE deptno = #{id}
     </select>
     <insert id="doCreate" parameterType="Dept">
-        INSERT INTO dept(dname) VALUES (#{dname});
+        INSERT INTO dept(dname,loc) VALUES (#{dname},database());
     </insert>
 
 </mapper>
