@@ -4,7 +4,7 @@ USE mldn8001;
 CREATE TABLE dept(
   deptno BIGINT AUTO_INCREMENT,
   dname VARCHAR(50),
-  loc VARCHAR(50)
+  loc VARCHAR(50),
   CONSTRAINT pk_deptno PRIMARY KEY(deptno)
 );
 
