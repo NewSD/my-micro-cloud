@@ -1,4 +1,4 @@
-package com.niu;
+package com.niu.microcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
