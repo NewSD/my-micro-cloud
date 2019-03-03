@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc14340-32e0-47c2-b5cd-ca0c14f30836" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microsoft/service/IDetService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mapper/com.niu/Dept.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/Dept_8001_StartSpringCloudApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/service/impl/DeptServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/dao/IDeptDao.java" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/dao/IDeptDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microsoft/service/IDetService.java" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/service/IDeptService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,26 +23,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microcloud-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,13 +45,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDetService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microsoft/service/IDetService.java">
+      <file leaf-file-name="IDeptService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/service/IDeptService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDeptServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dept_8001_StartSpringCloudApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/Dept_8001_StartSpringCloudApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,12 +104,30 @@
       <file leaf-file-name="Dept.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mapper/com.niu/Dept.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <marker date="1551620310402" expanded="true" signature="261:290" ph="SELECT deptn... dept" />
                 <marker date="1551620310402" expanded="true" signature="380:430" ph="SELECT deptn... dept" />
                 <marker date="1551620310402" expanded="true" signature="501:542" ph="INSERT INTO dept... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeptServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/service/impl/DeptServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,24 +143,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数据库创建脚本-8001.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/数据库创建脚本-8001.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -166,6 +179,11 @@
         <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mapper/com.niu/Dept.xml" />
         <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/service/IDetService.java" />
         <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microsoft/service/IDetService.java" />
+        <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microsoft/service/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microsoft/service/IDeptServiceTest.java" />
+        <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java" />
+        <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/Dept8001_StartSpringCloudApplication.java" />
+        <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/Dept_8001_StartSpringCloudApplication.java" />
       </list>
     </option>
   </component>
@@ -253,6 +271,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,7 +424,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="niu" />
+              <option name="myItemId" value="microcloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microcloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microcloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microcloud-provider-dept-8001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microcloud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -432,7 +488,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="niu" />
+              <option name="myItemId" value="microcloud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -467,9 +523,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.niu.microsoft.service" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
@@ -877,12 +940,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551615090662</updated>
-      <workItem from="1551615094515" duration="5589000" />
+      <workItem from="1551615094515" duration="6672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5589000" />
+    <option name="totallyTimeSpent" value="6672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1817" height="1102" extended-state="0" />
@@ -1001,18 +1064,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mapper/com.niu/Dept.xml.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1022,18 +1085,6 @@
         <state relative-caret-position="288">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mapper/com.niu/Dept.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <marker date="1551620310402" expanded="true" signature="261:290" ph="SELECT deptn... dept" />
-            <marker date="1551620310402" expanded="true" signature="380:430" ph="SELECT deptn... dept" />
-            <marker date="1551620310402" expanded="true" signature="501:542" ph="INSERT INTO dept... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,12 +1098,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microsoft/service/IDetService.java">
+    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mapper/com.niu/Dept.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <marker date="1551620310402" expanded="true" signature="261:290" ph="SELECT deptn... dept" />
+            <marker date="1551620310402" expanded="true" signature="380:430" ph="SELECT deptn... dept" />
+            <marker date="1551620310402" expanded="true" signature="501:542" ph="INSERT INTO dept... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/service/IDeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/Dept_8001_StartSpringCloudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
           </folding>
         </state>
       </provider>
