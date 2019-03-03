@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc14340-32e0-47c2-b5cd-ca0c14f30836" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/logs/iorder/2019-03-03/debug.0.log" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/logs/iorder/2019-03-03/debug.0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/logs/iorder/2019-03-03/error.0.log" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/logs/iorder/2019-03-03/error.0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/logs/iorder/2019-03-03/info.0.log" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/logs/iorder/2019-03-03/info.0.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java" afterPath="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDeptServiceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IDeptServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+            <state relative-caret-position="418">
+              <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -88,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -179,8 +180,8 @@
         <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microsoft/service/IDeptServiceTest.java" />
         <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/Dept8001_StartSpringCloudApplication.java" />
         <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/java/com/niu/microcloud/Dept_8001_StartSpringCloudApplication.java" />
-        <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java" />
         <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mybatis.cfg.xml" />
+        <option value="$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java" />
       </list>
     </option>
   </component>
@@ -549,7 +550,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IDeptServiceTest.get">
+  <component name="RunManager" selected="JUnit.IDeptServiceTest.list">
     <configuration default="false" name="IDeptServiceTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -563,6 +564,58 @@
       <option name="PACKAGE_NAME" value="com.niu.microcloud.service" />
       <option name="MAIN_CLASS_NAME" value="com.niu.microcloud.service.IDeptServiceTest" />
       <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IDeptServiceTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.niu.microcloud.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="microcloud-provider-dept-8001" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.niu.microcloud.service" />
+      <option name="MAIN_CLASS_NAME" value="com.niu.microcloud.service.IDeptServiceTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="IDeptServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.niu.microcloud.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="microcloud-provider-dept-8001" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.niu.microcloud.service" />
+      <option name="MAIN_CLASS_NAME" value="com.niu.microcloud.service.IDeptServiceTest" />
+      <option name="METHOD_NAME" value="list" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -956,12 +1009,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.IDeptServiceTest.get" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.IDeptServiceTest.add" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IDeptServiceTest.list" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IDeptServiceTest.get" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IDeptServiceTest.list" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IDeptServiceTest.add" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IDeptServiceTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -975,17 +1032,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551615090662</updated>
-      <workItem from="1551615094515" duration="7521000" />
+      <workItem from="1551615094515" duration="7936000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="IDeptServiceTest_add - 2019.03.03 at 22h 23m 48s.xml">
+      <configuration name="IDeptServiceTest.add" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="IDeptServiceTest_get - 2019.03.03 at 22h 15m 06s.xml">
+      <configuration name="IDeptServiceTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDeptServiceTest_get - 2019.03.03 at 22h 17m 26s.xml">
       <configuration name="IDeptServiceTest.get" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7521000" />
+    <option name="totallyTimeSpent" value="7936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1817" height="1102" extended-state="0" />
@@ -1009,7 +1072,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4231214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24956572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1173,14 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/main/resources/mybatis/mapper/com.niu/Dept.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1197,6 +1252,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microcloud-provider-dept-8001/src/test/java/com/niu/microcloud/service/IDeptServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding />
         </state>
       </provider>

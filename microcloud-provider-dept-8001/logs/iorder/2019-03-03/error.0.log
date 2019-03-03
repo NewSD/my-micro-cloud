@@ -214,3 +214,5 @@ Caused by: org.apache.ibatis.builder.BuilderException: The setting cacheEnable i
 	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:106)
 	... 84 common frames omitted
 [ERROR] 2019-03-03 22:17:15 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+[ERROR] 2019-03-03 22:23:40 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+[ERROR] 2019-03-03 22:24:06 [main] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set

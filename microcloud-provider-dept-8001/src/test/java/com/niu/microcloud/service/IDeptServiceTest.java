@@ -37,15 +37,20 @@ public class IDeptServiceTest {
     @Test
     public void get() throws Exception {
         Dept dept = this.deptService.get(1L);
-        Assert.assertEquals("开发部",dept.getDname());
+        Assert.assertEquals("开发部", dept.getDname());
     }
 
     @Test
     public void add() throws Exception {
+        Dept dept = new Dept();
+        dept.setDname("测试部" + System.currentTimeMillis());
+        dept.setLoc("位置" + System.currentTimeMillis());
+        System.out.println(this.deptService.add(dept));
     }
 
     @Test
     public void list() throws Exception {
+        System.out.println(this.deptService.list());
     }
 
 }
