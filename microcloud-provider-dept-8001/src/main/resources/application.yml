@@ -1,5 +1,15 @@
 server:
   port: 8001
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: mldnjava
+    password: hello
+    role:
+    - USER
+
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.niu.vo

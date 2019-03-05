@@ -26,6 +26,7 @@ public class DeptRest {
     }
 
 //    http://dept-8001.com:8001/dept/list
+//    http://mldnjava:hello@dept-8001.com:8001/dept/list
     @RequestMapping(value = "/dept/list", method = RequestMethod.GET)
     private Object list() {
         return this.deptService.list();

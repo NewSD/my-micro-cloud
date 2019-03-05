@@ -28,6 +28,7 @@ public class ConsumerDeptController {
     }
 
 //    http://client.com/consumer/dept/list
+//    头信息处理
     @RequestMapping(value = "/consumer/dept/list")
     public Object listDept() {
         List<Dept> dept = this.restTemplate.getForObject(DEPT_LIST_URL, List.class);

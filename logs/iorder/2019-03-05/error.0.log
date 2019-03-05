@@ -1,1 +1,2 @@
 [ERROR] 2019-03-05 12:49:28 [qtp817338125-21] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
+[ERROR] 2019-03-05 13:13:49 [qtp434213918-21] c.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
