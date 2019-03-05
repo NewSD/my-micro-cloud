@@ -24,7 +24,7 @@ public class RestConfig {
         HttpHeaders headers = new HttpHeaders();
         String auth = "mldnjava:hello";
         byte[] encode = Base64.getEncoder().encode(auth.getBytes(Charset.forName("US-ASCII")));
-        String authHeader = "Basic" + new String(encode);
+        String authHeader = "Basic " + new String(encode);
         headers.set("Authorization",authHeader);
         return headers;
     }
