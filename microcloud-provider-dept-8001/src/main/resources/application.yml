@@ -2,6 +2,7 @@ server:
   port: 8001
 
 security:
+  sessions: stateless
   basic:
     enabled: true
   user:
