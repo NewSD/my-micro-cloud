@@ -1,15 +1,16 @@
 server:
   port: 8001
 
-security:
-  sessions: stateless
-  basic:
-    enabled: true
-  user:
-    name: mldnjava
-    password: hello
-    role:
-    - USER
+# 引入microcloud-security安全配置模块,可以删除此配置
+#security:
+#  sessions: stateless
+#  basic:
+#    enabled: true
+#  user:
+#    name: mldnjava
+#    password: hello
+#    role:
+#    - USER
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml

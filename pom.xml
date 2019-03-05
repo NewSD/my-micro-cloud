@@ -11,6 +11,7 @@
         <module>microcloud-api</module>
         <module>microcloud-provider-dept-8001</module>
         <module>microcloud-consumer-80</module>
+        <module>microcloud-security</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,6 +22,11 @@
             <dependency>
                 <groupId>com.niu</groupId>
                 <artifactId>microcloud-api</artifactId>
+                <version>0.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.niu</groupId>
+                <artifactId>microcloud-security</artifactId>
                 <version>0.0.1</version>
             </dependency>
             <dependency>

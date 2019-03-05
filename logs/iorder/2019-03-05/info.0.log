@@ -387,3 +387,46 @@ Using default security password: 45cb7373-63c5-443a-90b9-afc7063d3230
 [INFO ] 2019-03-05 14:45:35 [qtp352249233-21] org.eclipse.jetty.server.session - Session id node0t36i1oda4k6815tv1ed83f5b0 swapped for new id node0q1ort65ex9c4ifgk2ptu64ry0
 [INFO ] 2019-03-05 14:45:35 [qtp352249233-26] org.eclipse.jetty.server.session - Session id node0q1ort65ex9c4ifgk2ptu64ry0 swapped for new id node01u86t5rqrbd741e5spx8hrmwnf1
 [INFO ] 2019-03-05 14:45:35 [qtp352249233-24] org.eclipse.jetty.server.session - Session id node01u86t5rqrbd741e5spx8hrmwnf1 swapped for new id node0ypv0vq09vkpfwyvg64u1q8fk2
+[INFO ] 2019-03-05 15:21:30 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - Starting Dept_8001_StartSpringCloudApplication on DESKTOP-2P4FE58 with PID 30372 (D:\WorkSpaceGit\microcloud\microcloud-provider-dept-8001\target\classes started by ami in D:\WorkSpaceGit\microcloud)
+[INFO ] 2019-03-05 15:21:30 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f0f2b04: startup date [Tue Mar 05 15:21:30 CST 2019]; root of context hierarchy
+[INFO ] 2019-03-05 15:21:30 [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[INFO ] 2019-03-05 15:21:30 [restartedMain] org.eclipse.jetty.util.log - Logging initialized @4935ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.c.e.j.JettyEmbeddedServletContainerFactory - Server initialized with port: 8001
+[INFO ] 2019-03-05 15:21:30 [restartedMain] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+[INFO ] 2019-03-05 15:21:30 [restartedMain] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[INFO ] 2019-03-05 15:21:30 [restartedMain] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[INFO ] 2019-03-05 15:21:30 [restartedMain] org.eclipse.jetty.server.session - Scavenging every 600000ms
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.e.j.s.h.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3144 ms
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.e.j.server.handler.ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@6203bdb0{/,[file:///C:/Users/ami/AppData/Local/Temp/jetty-docbase.5116772563870950052.8001/],AVAILABLE}
+[INFO ] 2019-03-05 15:21:30 [restartedMain] org.eclipse.jetty.server.Server - Started @6435ms
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62bdc2c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@61bbeceb, org.springframework.security.web.header.HeaderWriterFilter@40f72952, org.springframework.security.web.csrf.CsrfFilter@6fd02a17, org.springframework.security.web.authentication.logout.LogoutFilter@38dc6edf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@18e471c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f9aa872, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d97556d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e2f443d, org.springframework.security.web.session.SessionManagementFilter@56fe145c, org.springframework.security.web.access.ExceptionTranslationFilter@3183182e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23dbe51c]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f0f2b04: startup date [Tue Mar 05 15:21:30 CST 2019]; root of context hierarchy
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/add],methods=[POST]}" onto private java.lang.Object com.niu.microcloud.rest.DeptRest.add(com.niu.vo.Dept)
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/get/{id}],methods=[GET]}" onto public java.lang.Object com.niu.microcloud.rest.DeptRest.get(long)
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/list],methods=[GET]}" onto private java.lang.Object com.niu.microcloud.rest.DeptRest.list()
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/dept/sessionId]}" onto public java.lang.Object com.niu.microcloud.rest.DeptRest.getSessionId(javax.servlet.http.HttpServletRequest)
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.e.j.s.h.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.e.jetty.server.AbstractConnector - Started ServerConnector@3844e990{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+[INFO ] 2019-03-05 15:21:30 [restartedMain] o.s.b.c.e.j.JettyEmbeddedServletContainer - Jetty started on port(s) 8001 (http/1.1)
+[INFO ] 2019-03-05 15:21:30 [restartedMain] c.n.m.Dept_8001_StartSpringCloudApplication - Started Dept_8001_StartSpringCloudApplication in 7.032 seconds (JVM running for 8.687)
+[INFO ] 2019-03-05 15:21:30 [qtp1866085558-23] org.eclipse.jetty.server.session - Session id node097lmjifeoi6419cj6f63phf2x0 swapped for new id node0i5ytkc921ehl6yhj9458jjfr1
+[INFO ] 2019-03-05 15:21:30 [qtp1866085558-23] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
